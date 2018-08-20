@@ -1,0 +1,26 @@
+#name{
+    color: white;
+    background: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    float: left;
+    padding: 20px;
+}
+#heading{
+    width: 960px;
+}
+main{
+    margin-top: 20px;
+}
+header{
+    height: 90px;
+}
+h1{
+    color: #4aaaa5;
+}
+footer{
+    color: white;
+    background: #666666;
+    text-align: center;
+    padding-top: 20px;
+    border-top: 5px solid #4aaaa5;
+}

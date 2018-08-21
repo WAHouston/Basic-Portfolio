@@ -1,46 +1,75 @@
-#name{
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#name {
     color: white;
     background: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
     float: left;
     padding: 20px;
 }
-#heading{
+
+#heading {
     width: 960px;
+    height: 100%;
 }
-main{
+
+main {
     margin-top: 20px;
+    width: 960px;
+    overflow: auto;
 }
-header{
+
+header {
     height: 90px;
     width: 100%;
 }
-h1{
+
+h1 {
     color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
-footer{
+
+footer {
     color: white;
     background: #666666;
     text-align: center;
     padding-top: 20px;
     border-top: 5px solid #4aaaa5;
+    width: 100%;
 }
-nav{
+
+nav {
     float: right;
 }
-li{
+
+li {
     display: inline;
     line-height: 85px;
 }
-a{
+
+a {
     text-decoration: none;
     color: #777777;
     font-family: 'Arial', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    clear: both;
 }
-label{
+
+label {
     color: #777777;
 }
-#submit{
 
+#submit {
+    color:white;
+    font-family: 'Arial', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    background: #4aaaa5;
+    border: none;
+    padding: 5px;
+}
+
+#profpic {
+    float: left;
+    width: 200px;
 }

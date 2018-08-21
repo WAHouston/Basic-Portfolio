@@ -13,6 +13,7 @@ main{
 }
 header{
     height: 90px;
+    width: 100%;
 }
 h1{
     color: #4aaaa5;
@@ -23,4 +24,11 @@ footer{
     text-align: center;
     padding-top: 20px;
     border-top: 5px solid #4aaaa5;
+}
+nav{
+    float: right;
+}
+li{
+    display: inline;
+    line-height: 85px;
 }

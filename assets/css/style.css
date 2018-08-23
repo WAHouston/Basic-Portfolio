@@ -26,7 +26,8 @@ main {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: auto;
-    width: 960px;
+    padding: 40px 20px 40px 20px;
+    width: 920px;
     overflow: auto;
     border-color: #dddddd;
 }

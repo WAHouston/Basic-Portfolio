@@ -13,6 +13,7 @@
 }
 
 #heading {
+    margin: auto;
     width: 960px;
     height: 100%;
 }
@@ -22,6 +23,9 @@ main {
     font-family: 'Arial', 'Helvetica Neue', Arial, Helvetica, sans-serif;
     background: #ffffff;
     margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
     width: 960px;
     overflow: auto;
     border-color: #dddddd;
@@ -40,12 +44,12 @@ h1 {
 }
 
 footer {
-    margin-top: 20px;
     color: #ffffff;
     background: #666666;
     text-align: center;
-    padding-top: 20px;
+    line-height: 85px;
     border-top: 5px solid #4aaaa5;
+    height: 60px;
     width: 100%;
 }
 
@@ -79,4 +83,8 @@ a {
 
 body {
     background: #eeeeee;
+}
+
+.crux {
+    min-height: calc(100vh - 65px);
 }

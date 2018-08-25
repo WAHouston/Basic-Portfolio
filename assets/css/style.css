@@ -69,6 +69,7 @@ li {
 }
 
 a {
+    font-size: 19px;
     text-decoration: none;
     color: #777777;
     clear: both;
@@ -121,4 +122,19 @@ input {
 
 textarea {
     height: 200px;
+}
+
+#about {
+    margin-right: 10px;
+}
+
+#portfolio {
+    padding-left: 10px;
+    padding-right: 10px;
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+}
+
+#contact {
+    margin-left: 10px;
 }

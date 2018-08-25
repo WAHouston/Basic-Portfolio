@@ -31,11 +31,11 @@ main {
     padding: 30px;
     width: 960px;
     overflow: auto;
-    border-color: #dddddd;
+    border: 1px solid #dddddd;
 }
 
 header {
-    border-color: #cccccc;
+    border-bottom: 2px solid #cccccc;
     background: #ffffff;
     height: 90px;
     width: 100%;

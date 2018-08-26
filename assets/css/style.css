@@ -27,7 +27,7 @@ main {
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: auto;
+    margin-bottom: 20px;
     padding: 30px;
     width: 960px;
     border: 1px solid #dddddd;
@@ -49,8 +49,10 @@ header {
 h1 {
     color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
-}
+}  
+
 main h1 {
+    font-size: 30px;
     margin-bottom: 30px;
 }
 
@@ -103,7 +105,7 @@ body {
 }
 
 .crux {
-    min-height: calc(100vh - 65px);
+    min-height: calc(100vh - 80px);
 }
 
 hr {
@@ -170,11 +172,15 @@ p{
     height: 100%;
 }
 
-.project h2 {
+.project h3 {
     font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: normal;
     color: #ffffff;
     background: #4aaaa5;
     width: 100%;
     position: absolute;
     bottom: 10px;
+    text-align: center;
+    padding-top: 19px;
+    padding-bottom: 19px;
 }
